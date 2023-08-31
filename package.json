@@ -1,0 +1,27 @@
+{
+  "name": "windows-docker-action",
+  "version": "1.0.0",
+  "description": "Example repo showing usage of GitHub Actions with Docker on Windows",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "eslint --ignore-path .eslintignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collinmcneese/windows-docker-action.git"
+  },
+  "author": "Collin McNeese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collinmcneese/windows-docker-action/issues"
+  },
+  "homepage": "https://github.com/collinmcneese/windows-docker-action#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-strongloop": "^2.1.0"
+  }
+}
