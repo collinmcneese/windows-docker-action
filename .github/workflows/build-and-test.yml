@@ -23,7 +23,7 @@ jobs:
     name: 🧪 Test
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Install dependencies
         run: npm install
       - name: Test
@@ -39,7 +39,7 @@ jobs:
       id-token: write
       attestations: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Docker Build
         run: docker build . --file Dockerfile --tag ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
           
@@ -48,6 +48,6 @@ jobs:
     needs: build-container
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Deploy Step
         run: echo "Deploying"
