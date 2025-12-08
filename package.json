@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/collinmcneese/windows-docker-action#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
